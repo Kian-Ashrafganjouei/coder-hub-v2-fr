@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coder-hub-v2-fr/static/css/main.8ac3796d.css",
-    "main.js": "/coder-hub-v2-fr/static/js/main.eda18d3a.js",
+    "main.js": "/coder-hub-v2-fr/static/js/main.5892c098.js",
     "static/media/occupation.jpg": "/coder-hub-v2-fr/static/media/occupation.d3e2eff46cdc3c509529.jpg",
     "static/media/lan-tech.jpg": "/coder-hub-v2-fr/static/media/lan-tech.49082b9e491d09032a8a.jpg",
     "static/media/s1-image.jpg": "/coder-hub-v2-fr/static/media/s1-image.60dc8776210ddbdb8e79.jpg",
@@ -18,10 +18,10 @@
     "static/media/python.jpg": "/coder-hub-v2-fr/static/media/python.279decc8d49ff11cdd08.jpg",
     "index.html": "/coder-hub-v2-fr/index.html",
     "main.8ac3796d.css.map": "/coder-hub-v2-fr/static/css/main.8ac3796d.css.map",
-    "main.eda18d3a.js.map": "/coder-hub-v2-fr/static/js/main.eda18d3a.js.map"
+    "main.5892c098.js.map": "/coder-hub-v2-fr/static/js/main.5892c098.js.map"
   },
   "entrypoints": [
     "static/css/main.8ac3796d.css",
-    "static/js/main.eda18d3a.js"
+    "static/js/main.5892c098.js"
   ]
 }
