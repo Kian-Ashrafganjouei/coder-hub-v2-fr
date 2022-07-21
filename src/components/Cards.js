@@ -6,35 +6,35 @@ import '../App.css'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>The most popular programing langauges!</h1>
+      <h1>The most popular programming langauges!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='java-image'
-              text='Java is a high-level, class-based, object-oriented programming language'
+              text='Java est un langage de programmation de haut niveau, basé sur des classes et orienté objet'
               label='Java'
             />
             <CardItem
               src='python-image'
-              text='Python is a high-level, interpreted, general-purpose programming language'
+              text='Python est un langage de programmation de haut niveau, interprété et à usage général'
               label='Python'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='c-image'
-              text='C is an imperative, procedural language used in operating systems, device drivers and protocol stacks'
+              text='C est un langage procédural impératif utilisé dans les systèmes d exploitation, les pilotes de périphériques et les piles de protocoles'
               label='C'
             />
             <CardItem
               src='javas-image'
-              text='JavaScript is a programming language that is one of the core technologies of the World Wide Web'
+              text='JavaScript est un langage de programmation qui est lune des technologies de base du World Wide Web'
               label='JavaScript'
             />
             <CardItem
               src='cpp-image'
-              text='C++ is a general-purpose programming language which is an extention of C'
+              text='C++ est un langage de programmation à usage général qui est une extension de C'
               label='C++'
             />
           </ul>

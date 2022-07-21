@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import HeroOther from '../HeroOther'
+import Navbar from '../Navbar';
 
 export default function Charts() {
   return (
     <>
-    <HeroOther title={"Charts"} desc={"Look at the data"}/>
-    <h1>Percentage of Programmers vs Programing Occupation</h1>
+    <HeroOther title={"Graphiques"} desc={"Regardez les données"}/>
+    <h1>Pourcentage de programmeurs par rapport à la profession de programmeur</h1>
     <div id='outerplayer'>
       <div className='videoplayer'>
         <img src={require('../imges/occupation.jpg')}/>
@@ -19,7 +20,7 @@ export default function Charts() {
     <br/>
 
 
-    <h1>Most Used Technologies/Languages</h1>
+    <h1>Technologies/langages les plus utilisés</h1>
     <div id='outerplayer'>
       <div className='videoplayer'>
         <img src={require('../imges/lan-tech.jpg')}/>
@@ -32,7 +33,7 @@ export default function Charts() {
     <br/>
 
 
-    <h1>Age Distribution of Programmers</h1>
+    <h1>Répartition par âge des programmeurs</h1>
     <div id='outerplayer'>
       <div className='videoplayer'>
         <img src={require('../imges/age.jpg')}/>

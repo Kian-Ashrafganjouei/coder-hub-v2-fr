@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import './Frencgstyle.css'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -23,7 +24,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='./pages/Langauges.js' className='nav-links' onClick={closeMobileMenu}>
-                Langauges
+              Langues
               </Link>
             </li>
             <li className='nav-item'>
@@ -32,7 +33,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Videos
+              Vidéos
               </Link>
             </li>
             <li className='nav-item'>
@@ -41,9 +42,20 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Charts
+              Graphiques
               </Link>
             </li>
+            
+            <li className='nav-item'>
+              <a
+                href='https://kian-ashrafganjouei.github.io/coder-hub-v2/'
+                className='nav-links '
+                onClick={closeMobileMenu}
+              >
+                English
+              </a>
+            </li>
+          
           </ul>
         </div>
       </nav>
