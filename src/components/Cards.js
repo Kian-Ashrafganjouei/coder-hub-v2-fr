@@ -6,7 +6,7 @@ import '../App.css'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>The most popular programming langauges!</h1>
+      <h1>Les langages de programmation les plus populaires!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -45,7 +45,7 @@ function Cards() {
       <br/>
       <br/>
 
-      <h1> Python code sample</h1>
+      <h1> Exemple de code Python</h1>
       <div id='outerplayer'>
         <div className='videoplayer'>
         <img src={require('./imges/python-sample.jpg')}/>
@@ -56,7 +56,7 @@ function Cards() {
       <br/>
       <br/>
       <br/>
-      <h1> C code sample</h1>
+      <h1> Exemple de code C</h1>
       <div id='outerplayer'>
         <div className='videoplayer'>
         <img src={require('./imges/c-sample.jpg')}/>
